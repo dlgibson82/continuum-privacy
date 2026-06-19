@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for Continuum by Continuum Digital." />
+  <title>Privacy Policy — Continuum</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --navy: #0B1220;
+      --slate: #182433;
+      --soft-white: #E6ECF3;
+      --muted: #8A93A3;
+      --gold: #F2B86A;
+      --body-text: #B8C4D4;
+      --border: rgba(138, 147, 163, 0.28);
+      --card-shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --wrap: min(100% - 2rem, 44rem);
+      --wrap-wide: min(100% - 2rem, 52rem);
+    }
+
+    html {
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--navy);
+      color: var(--soft-white);
+      font-family: var(--font);
+      font-weight: 400;
+      line-height: 1.7;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: underline;
+      text-decoration-color: rgba(242, 184, 106, 0.45);
+      text-underline-offset: 0.18em;
+      word-break: break-word;
+    }
+
+    a:hover {
+      text-decoration-color: var(--gold);
+    }
+
+    .wrap {
+      width: var(--wrap);
+      margin-inline: auto;
+    }
+
+    .wrap-wide {
+      width: var(--wrap-wide);
+      margin-inline: auto;
+    }
+
+    /* Header */
+    .site-header {
+      background: var(--navy);
+      border-bottom: 1px solid var(--border);
+      padding: 1.25rem 0;
+    }
+
+    .wordmark {
+      color: var(--soft-white);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+    }
+
+    /* Hero */
+    .hero {
+      background:
+        radial-gradient(ellipse 80% 60% at 50% -10%, rgba(242, 184, 106, 0.08), transparent 60%),
+        var(--navy);
+      border-bottom: 1px solid var(--border);
+      padding: 2.75rem 0 3rem;
+    }
+
+    .hero-eyebrow {
+      color: var(--gold);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      color: var(--soft-white);
+      font-size: clamp(1.875rem, 5vw, 2.5rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-meta {
+      color: var(--muted);
+      font-size: 0.9375rem;
+      line-height: 1.6;
+      margin-bottom: 0.35rem;
+    }
+
+    .hero-meta strong {
+      color: var(--soft-white);
+      font-weight: 500;
+    }
+
+    .trust-statement {
+      border-left: 3px solid var(--gold);
+      color: var(--body-text);
+      font-size: 1rem;
+      line-height: 1.75;
+      margin-top: 1.75rem;
+      max-width: 38rem;
+      padding-left: 1rem;
+    }
+
+    /* Main layout */
+    .page-main {
+      padding: 2.5rem 0 4rem;
+    }
+
+    .policy-card {
+      background: var(--slate);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: var(--card-shadow);
+      padding: clamp(1.25rem, 4vw, 2rem);
+    }
+
+    .policy-section + .policy-section {
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+      padding-top: 2rem;
+    }
+
+    .policy-section h2 {
+      color: var(--gold);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+
+    .policy-section p {
+      color: var(--body-text);
+      font-size: 0.9375rem;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    .policy-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .policy-section ul {
+      list-style: none;
+      margin: 0 0 1rem;
+    }
+
+    .policy-section ul:last-child {
+      margin-bottom: 0;
+    }
+
+    .policy-section li {
+      color: var(--body-text);
+      font-size: 0.9375rem;
+      line-height: 1.75;
+      padding: 0.35rem 0 0.35rem 1.125rem;
+      position: relative;
+    }
+
+    .policy-section li::before {
+      background: var(--gold);
+      content: "";
+      height: 1px;
+      left: 0;
+      position: absolute;
+      top: 0.95em;
+      width: 0.45rem;
+    }
+
+    .policy-section li strong {
+      color: var(--soft-white);
+      font-weight: 500;
+    }
+
+    /* Contact card */
+    .contact-card {
+      background: var(--slate);
+      border: 1px solid rgba(242, 184, 106, 0.35);
+      border-radius: 14px;
+      margin-top: 1.5rem;
+      padding: clamp(1.25rem, 4vw, 1.75rem);
+    }
+
+    .contact-card h2 {
+      color: var(--soft-white);
+      font-size: 1.0625rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.65rem;
+      text-transform: none;
+    }
+
+    .contact-card p {
+      color: var(--body-text);
+      font-size: 0.9375rem;
+      line-height: 1.75;
+      margin-bottom: 0.75rem;
+    }
+
+    .contact-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .contact-email {
+      color: var(--gold);
+      display: inline-block;
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 0.35rem;
+    }
+
+    .contact-org {
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+
+    /* Footer */
+    .site-footer {
+      border-top: 1px solid var(--border);
+      padding: 1.75rem 0 2.25rem;
+    }
+
+    .footer-inner {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      justify-content: space-between;
+    }
+
+    .footer-copy,
+    .footer-link {
+      color: var(--muted);
+      font-size: 0.8125rem;
+      line-height: 1.5;
+    }
+
+    .footer-link {
+      text-decoration: none;
+    }
+
+    .footer-link:hover {
+      color: var(--gold);
+      text-decoration: underline;
+    }
+
+    @media (max-width: 540px) {
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap-wide">
+      <p class="wordmark" aria-label="Continuum">CONTINUUM</p>
+    </div>
+  </header>
+
+  <section class="hero" aria-labelledby="privacy-policy-title">
+    <div class="wrap-wide">
+      <p class="hero-eyebrow">Legal</p>
+      <h1 id="privacy-policy-title">Privacy Policy</h1>
+      <p class="hero-meta"><strong>Effective date:</strong> May 23, 2026</p>
+      <p class="hero-meta"><strong>Continuum Digital</strong></p>
+      <p class="hero-meta">British Columbia, Canada</p>
+      <p class="trust-statement">Continuum is built to preserve context, responsibility, and trust when situations move between people.</p>
+    </div>
+  </section>
+
+  <main class="page-main">
+    <div class="wrap-wide">
+      <article class="policy-card" aria-label="Privacy policy">
+
+        <section class="policy-section" id="overview">
+          <h2>Overview</h2>
+          <p>Continuum is a responsibility and handoff management application built and operated by Continuum Digital, based in British Columbia, Canada. This policy describes what personal information we collect, how we use it, who we share it with, and your rights under applicable Canadian privacy law, including the <em>Personal Information Protection and Electronic Documents Act</em> (PIPEDA).</p>
+          <p>We collect only what is necessary to provide the service. We do not sell, rent, or trade your personal information to any third party.</p>
+        </section>
+
+        <section class="policy-section" id="information-we-collect">
+          <h2>Information we collect</h2>
+          <p>When you create an account or use Continuum, we collect the following:</p>
+          <ul>
+            <li><strong>Email address</strong> — used to authenticate you via magic link sign-in and to send account-related notices. We do not use your email address for marketing without your explicit consent.</li>
+            <li><strong>App content</strong> — situations, decisions, actions, risks, handoffs, and notes that you create within the app. This content is yours. We store it on your behalf to provide the service.</li>
+            <li><strong>Display name</strong> — only if you choose to provide one. This is optional.</li>
+            <li><strong>Space membership</strong> — if you create or join a shared space, we record your membership and role within that space.</li>
+            <li><strong>Authentication metadata</strong> — Supabase Auth records standard session data such as sign-in timestamps and device tokens, used solely to maintain secure access to your account. We do not independently log or analyse this data.</li>
+          </ul>
+          <p>We do not collect your full name, phone number, location, or payment information. Payments are managed entirely by Apple through in-app purchase and are subject to Apple's privacy policy.</p>
+          <p>We do not use advertising networks, behavioural tracking, or analytics SDKs of any kind.</p>
+        </section>
+
+        <section class="policy-section" id="how-we-use">
+          <h2>How we use your information</h2>
+          <p>We use the information we collect for the following purposes only:</p>
+          <ul>
+            <li>To authenticate you and maintain secure access to your account</li>
+            <li>To store your app content and sync it across your devices</li>
+            <li>To share situations with other members of a shared space you belong to</li>
+            <li>To send your situation content to the Anthropic Claude API when you explicitly request an AI Check — this is always user-initiated and never occurs automatically or in the background</li>
+            <li>To deliver transactional emails, such as magic link sign-in messages, through our email provider Resend</li>
+          </ul>
+          <p>We do not use your information for any purpose beyond what is listed above without your explicit consent.</p>
+        </section>
+
+        <section class="policy-section" id="ai-check">
+          <h2>AI Check</h2>
+          <p>When you request an AI Check on a situation, the content of that situation is transmitted to the Anthropic Claude API for analysis. This transmission occurs only when you initiate it — Continuum never sends your data to Anthropic automatically, passively, or in the background.</p>
+          <p>Anthropic processes this data to generate the analysis response. We do not retain your situation content on Anthropic's systems beyond what is required to complete the individual request. Anthropic's own privacy policy governs how they handle data submitted through their API.</p>
+          <p>The result of each AI Check is stored within your account as part of your situation record, under your control.</p>
+        </section>
+
+        <section class="policy-section" id="data-storage">
+          <h2>Data storage and location</h2>
+          <p>Your data is stored in two places:</p>
+          <ul>
+            <li><strong>On your device</strong> — using your device's local storage. This copy is always present and is the primary source of truth for the app.</li>
+            <li><strong>In the cloud</strong> — using Supabase, a managed database platform. Our Supabase project is hosted in the West US (Northern California) region on infrastructure operated by Amazon Web Services.</li>
+          </ul>
+          <p>By using Continuum, you acknowledge that your data will be stored on servers located in the United States. We have taken reasonable steps to ensure this storage is governed by appropriate data processing agreements. If you have concerns about cross-border data transfer, please contact us at <a href="mailto:privacy@usecontinuum.ca">privacy@usecontinuum.ca</a>.</p>
+          <p>Cloud sync is always active when you are signed in. It cannot currently be disabled independently of your account. If you sign out of your account, your data remains stored locally on your device only.</p>
+        </section>
+
+        <section class="policy-section" id="shared-spaces">
+          <h2>Shared spaces</h2>
+          <p>If you create or join a shared space, any situations you add to that space are visible to all other members of that space. You control which situations belong to a shared space. Removing a situation from a space or leaving a space does not automatically delete your content from our systems — it removes other members' access to it.</p>
+          <p>You are responsible for the content you share within a space and for ensuring that content does not include personal information about others without their knowledge.</p>
+        </section>
+
+        <section class="policy-section" id="third-party-services">
+          <h2>Third-party services</h2>
+          <p>Continuum relies on the following third-party services to function. Each is used only for the stated purpose:</p>
+          <ul>
+            <li><strong>Supabase</strong> — database storage, authentication, and cloud sync. <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase Privacy Policy</a></li>
+            <li><strong>Anthropic</strong> — AI analysis via the Claude API, triggered only when you request an AI Check. <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener noreferrer">Anthropic Privacy Policy</a></li>
+            <li><strong>Resend</strong> — transactional email delivery for magic link sign-in messages. <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Resend Privacy Policy</a></li>
+            <li><strong>Apple</strong> — in-app purchase and subscription management. <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a></li>
+          </ul>
+          <p>We do not use advertising networks, crash reporting services, or third-party analytics platforms.</p>
+        </section>
+
+        <section class="policy-section" id="data-retention">
+          <h2>Data retention and deletion</h2>
+          <p>We retain your personal information and app content for as long as your account is active. You can delete all of your data at any time from within the app using the <strong>Reset Data</strong> option in Settings. This permanently removes your situations from both your local device storage and our cloud database.</p>
+          <p>To request permanent deletion of your account and all associated personal information, contact us at <a href="mailto:privacy@usecontinuum.ca">privacy@usecontinuum.ca</a>. We will complete the deletion within 30 days and confirm when it is done.</p>
+          <p>Note that if you have shared situations within a space, other members may have their own records of content that was shared with them. We cannot guarantee deletion of copies that exist within another user's account.</p>
+        </section>
+
+        <section class="policy-section" id="pipeda-rights">
+          <h2>Your rights under PIPEDA</h2>
+          <p>As a Canadian resident, you have the following rights regarding your personal information under PIPEDA:</p>
+          <ul>
+            <li><strong>Right of access</strong> — you may request a copy of the personal information we hold about you.</li>
+            <li><strong>Right to correction</strong> — you may request that we correct inaccurate or incomplete personal information.</li>
+            <li><strong>Right to deletion</strong> — you may request that we delete your personal information, subject to any legal obligations we may have to retain it.</li>
+            <li><strong>Right to withdraw consent</strong> — where our processing is based on consent, you may withdraw that consent at any time. Withdrawal does not affect the lawfulness of processing prior to withdrawal.</li>
+            <li><strong>Right to complain</strong> — if you believe your privacy rights have been violated, you may file a complaint with the Office of the Privacy Commissioner of Canada at <a href="https://www.priv.gc.ca" target="_blank" rel="noopener noreferrer">priv.gc.ca</a>.</li>
+          </ul>
+          <p>To exercise any of these rights, contact us at <a href="mailto:privacy@usecontinuum.ca">privacy@usecontinuum.ca</a>. We will respond within 30 days.</p>
+        </section>
+
+        <section class="policy-section" id="childrens-privacy">
+          <h2>Children's privacy</h2>
+          <p>Continuum is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. This threshold is consistent with the position of the Office of the Privacy Commissioner of Canada (OPC), which holds that children under 13 generally cannot provide meaningful consent under PIPEDA, and with the requirements of the U.S. Children's Online Privacy Protection Act (COPPA).</p>
+          <p>If you become aware that a child under 13 has provided us with personal information without parental consent, please contact us immediately at <a href="mailto:privacy@usecontinuum.ca">privacy@usecontinuum.ca</a>. We will delete that information promptly upon verification.</p>
+          <p>We do not engage in behavioural tracking, profiling, or targeted advertising — practices the OPC specifically cautions against in contexts where minors may be present.</p>
+        </section>
+
+        <section class="policy-section" id="security">
+          <h2>Security</h2>
+          <p>We take reasonable technical and organisational measures to protect your personal information against unauthorised access, disclosure, alteration, or destruction. These include encrypted data transmission (TLS), access controls on our database, and authentication via time-limited magic links rather than passwords.</p>
+          <p>No method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security, but we will notify you promptly if we become aware of a breach affecting your personal information.</p>
+        </section>
+
+        <section class="policy-section" id="changes">
+          <h2>Changes to this policy</h2>
+          <p>We may update this policy from time to time to reflect changes in the app, our practices, or applicable law. When we make material changes, we will update the effective date at the top of this page. We may also notify you by email if the changes are significant.</p>
+          <p>Continued use of Continuum after an updated policy is posted constitutes your acceptance of the revised terms. We encourage you to review this page periodically.</p>
+        </section>
+
+      </article>
+
+      <aside class="contact-card" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact &amp; support</h2>
+        <p>For privacy questions, access requests, correction requests, or complaints, contact Continuum Digital:</p>
+        <p>
+          <a class="contact-email" href="mailto:privacy@usecontinuum.ca">privacy@usecontinuum.ca</a><br />
+          <span class="contact-org">Continuum Digital · British Columbia, Canada</span>
+        </p>
+        <p>For general app support, email <a href="mailto:support@usecontinuum.ca">support@usecontinuum.ca</a>.</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap-wide">
+      <div class="footer-inner">
+        <p class="footer-copy">&copy; 2026 Continuum Digital. All rights reserved.</p>
+        <a class="footer-link" href="mailto:support@usecontinuum.ca">support@usecontinuum.ca</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
